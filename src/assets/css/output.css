@@ -1160,6 +1160,12 @@ video {
   }
 }
 
+@supports ((-webkit-backdrop-filter: var(--tw)) or (backdrop-filter: var(--tw))) {
+  .supports-\[backdrop-filter\]\:bg-opacity-50 {
+    --tw-bg-opacity: 0.5;
+  }
+}
+
 @media (min-width: 640px) {
   .sm\:relative {
     position: relative;
