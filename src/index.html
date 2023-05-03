@@ -1,74 +1,58 @@
 <!doctype html>
 <html lang="en">
 <head>
-    <title>Results summary component</title>
+    <title>Hoopoe - Crypto base messenger</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="assets/css/output.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@300;400;500;700;800&display=swap"
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
           rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 </head>
-<body class="min-h-screen bg-light-background font-hanken-grotesk flex items-start md:items-center justify-center px-5">
+<body class="min-h-screen font-jost bg-black text-gray-50 flex items-start px-60">
 
 
-<main class="w-full flex flex-col md:flex-row bg-white max-w-[24rem] md:max-w-[39rem] py-auto md:shadow-2xl overflow-hidden md:rounded-[1.6rem]">
-    <!---->
-    <div class="md:w-1/2 bg-indigo-500 rounded-b-[1.6rem] md:rounded-[1.6rem] flex flex-col justify-center items-center px-5 py-5 gap-5 bg-gradient-to-b from-[#7857ff] to-[#2e2be9]">
-        <h2 class="text-lg font-medium text-white text-opacity-60 md:text-xl">Your Result</h2>
-        <div class="bg-gradient-to-b from-[#4e21ca] aspect-square w-32 md:w-44 rounded-full flex items-center justify-center bg-indigo-700 flex-col text-gray-50">
-            <span class="text-5xl md:text-6xl font-bold">76</span>
-            <span class="opacity-50">of 100</span>
+<main class="w-full">
+    <header class="flex h-20 items-center">
+        <h1 class="text-yellow-200 text-light-blue font-bold text-2xl">Hoopoe</h1>
+        <div class="ml-auto flex gap-12 items-center">
+            <ul class="flex gap-8 font-bold text-base text-yellow-200">
+                <li>
+                    <a href="">Home</a>
+                </li>
+                <li>
+                    <a href="">Explore</a>
+                </li>
+                <li>
+                    <a href="">More</a>
+                </li>
+            </ul>
+            <a href=""
+               class="bg-gradient-to-l from-[#4E4AF8] to-[#14A87E] hover:grayscale-0 grayscale transition-all duration-300 font-medium px-5 h-10 flex items-center rounded-md">Get
+                Started</a>
         </div>
-        <div class="text-center text-gray-50 px-5 mt-1">
-            <h2 class="text-2xl font-medium">Grate</h2>
-            <p class="opacity-80 font-normal mt-2">You score higher than 65% of the people who have take these
-                tests.</p>
+    </header>
+    <section class="w-full flex flex-col min-h-[40rem] justify-center">
+        <span class="text-4xl font-bold text-yellow-200">Join Now To</span>
+        <div>
+            <h1 class="inline text-6xl font-normal bg-gradient-to-l bg-clip-text text-transparent from-[#4E4AF8] to-yellow-500 leading-normal bg-red-200">
+                Venom Messenger</h1>
         </div>
-    </div>
-
-    <div class="px-8 py-5 flex flex-col gap-4 md:gap-6 mb-4 md:w-1/2 text-[#303b5a]">
-        <h1 class="font-semibold text-lg md:text-xl">Summary</h1>
-        <ul class="flex flex-col gap-4">
-            <li class="flex h-12 gap-2 items-center bg-[#ff575710] rounded-lg px-3 font-semibold">
-                <img src="./assets/icons/icon-reaction.svg" alt="">
-                <span class="text-[#ff5757]">Reaction</span>
-                <span class="ml-auto">
-                    <span>80</span>
-                    <span class="opacity-50">/100</span>
-                </span>
-            </li>
-            <li class="flex h-12 gap-2 items-center bg-[#ffb01f10] rounded-lg px-3 font-semibold">
-                <img src="./assets/icons/icon-memory.svg" alt="">
-                <span class="text-[#ffb01f]">Memory</span>
-                <span class="ml-auto">
-                    <span>92</span>
-                    <span class="opacity-50">/100</span>
-                </span>
-            </li>
-            <li class="flex h-12 gap-2 items-center bg-[#00bd9110] rounded-lg px-3 font-semibold">
-                <img src="./assets/icons/icon-verbal.svg" alt="">
-                <span class="text-[#00bd91]">Reaction</span>
-                <span class="ml-auto">
-                    <span>61</span>
-                    <span class="opacity-50">/100</span>
-                </span>
-            </li>
-            <li class="flex h-12 gap-2 items-center bg-[#1125d410] rounded-lg px-3 font-semibold">
-                <img src="./assets/icons/icon-visual.svg" alt="">
-                <span class="text-[#1125d4]">Visual</span>
-                <span class="ml-auto">
-                    <span>72</span>
-                    <span class="opacity-50">/100</span>
-                </span>
-            </li>
-
-        </ul>
-        <button class="h-12 rounded-full bg-[#303b5a] hover:bg-gradient-to-b from-[#7857ff] to-[#2e2be9] text-gray-50 flex items-center justify-center w-full font-medium text-lg mt-2">
-            Continue
-        </button>
-    </div>
+        <p class="max-w-2xl mt-12 text-neutral-400">
+            Lorem ipsum dolor sit amet. Eum rerum accusamus non sint dolores ut enim commodi a atque necessitatibus non
+            sunt error? Vel optio ipsa aut explicabo accusamus sed consequatur distinctio. Ut quia totam eos doloremque
+            nobis sit voluptate dicta aut quos rerum. Non tenetur consectetur qui sint officiis aut mollitia numquam qui
+            maxime harum.
+        </p>
+        <div class="flex gap-5 mt-5">
+            <button class="h-12 bg-gradient-to-l from-[#4E4AF8] to-yellow-500 font-medium text-xl px-10 rounded-md">Get It Started</button>
+            <div>
+                <span class="mdi">android</span>
+            </div>
+        </div>
+    </section>
 </main>
 
 

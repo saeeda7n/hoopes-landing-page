@@ -2,9 +2,15 @@
 module.exports = {
     content: ["./src/**/*.{html,js}"],
     theme: {
-        extend: {},
+        extend: {
+            colors: {
+                'light-blue': '#BEFEFE',
+                'text-primary': ''
+            }
+        },
         fontFamily: {
-            'hanken-grotesk': ['Hanken Grotesk', 'sans-serif']
+            'josefin': ['Josefin Sans', 'sans-serif'],
+            'jost': ['Jost', 'sans-serif'],
         }
     },
     plugins: [],
