@@ -16,13 +16,17 @@
 
 
 <main class="w-full">
+    <!--    Header Start        -->
     <header class="flex h-20 items-center sticky top-0 mt-4 mb-4 standard-padding z-50 before:absolute before:bottom-0 before:left-0 before:top-0 before:right-0 before:bg-black before:supports-[backdrop-filter]:bg-opacity-30 before:backdrop-blur">
-
+        <!--Header Left Start   -->
         <div class="flex sm:hidden items-center mr-5 cursor-pointer select-none relative">
             <span class="material-symbols-outlined text-yellow-200 scale-125" id="showMenuButton">menu</span>
         </div>
         <h1 class="text-yellow-200 text-light-blue font-bold text-2xl select-none relative">Hoopoes</h1>
+        <!--        Header Left End                         -->
+        <!--        Header Menu and Sign in Button Start    -->
         <div class="ml-auto flex gap-12 items-center">
+            <!--            Menu Start  -->
             <ul id="menu"
                 class="flex sm:translate-x-0 border-r sm:border-r-0 border-neutral-800 -translate-x-full transition-all sm:flex-row flex-col sm:w-auto w-64 sm:px-0 py-10 sm:px-0 gap-4 sm:gap-8 font-bold text-base text-yellow-200 fixed left-0 top-0 bottom-0 sm:bg-transparent bg-neutral-950 z-50 sm:relative">
 
@@ -54,6 +58,7 @@
                     Copyright Hoopoes 2023
                 </li>
             </ul>
+            <!--            Menu End    -->
 
             <div class="h-10 relative transition-all group w-full bg-gradient-to-l from-indigo-600 to-indigo-600 via-yellow-500 bg-[length:200%_100%] hover:bg-right p-0.5 rounded-md">
                 <div class="flex h-full w-full px-5 items-center justify-center rounded-md bg-black">
@@ -64,11 +69,14 @@
                 </div>
             </div>
         </div>
+        <!--        Header Menu and Sign in Button End  -->
+
     </header>
+    <!--    Header End, Section Start      -->
     <section class="w-full flex flex-col justify-center gap-3 pt-24 pb-40 min-h-[calc(100vh_-_7rem)] standard-padding">
         <span class="text-2xl sm:text-4xl font-bold text-yellow-200">Join Now To</span>
         <div>
-            <h1 class="inline text-5xl sm:text-7xl font-normal bg-gradient-to-l bg-clip-text text-transparent from-indigo-600 to-yellow-500 ">
+            <h1 class="inline text-5xl sm:text-7xl font-normal bg-gradient-to-l bg-clip-text text-transparent from-indigo-600 to-yellow-500">
                 Venom Messenger
             </h1>
         </div>
@@ -78,8 +86,10 @@
             nobis sit voluptate dicta aut quos rerum. Non tenetur consectetur qui sint officiis aut mollitia numquam qui
             maxime harum.
         </p>
+        <!--        Buttons Container Start-->
         <div class="flex flex-col select-none sm:flex-row gap-8 mt-8">
 
+            <!--            Get It Started Button Start-->
             <div class="relative group sm:w-56 w-full ">
                 <div class="absolute bg-gradient-to-l sm:group-hover:scale-x-110 scale-x-100 bg-[length:200%_100%] animate-[gradient_5s_ease_infinite] from-indigo-600 via-yellow-500 to-indigo-600 rounded-md transition top-0 left-0 right-0 bottom-0 group-hover:blur-lg blur-0">
                 </div>
@@ -92,8 +102,10 @@
                     </div>
                 </div>
             </div>
+            <!--            Get It Started Button End-->
 
-            <div class="flex gap-2">
+            <!--            Android and IOS download buttons Start  -->
+            <div class="flex gap-2 justify-center">
                 <div class="bg-neutral-950 transition-all shadow-none ease-out hover:shadow-[0_0_20px_0px] hover:bg-black hover:shadow-neutral-800 flex w-12 flex-wrap overflow-hidden group hover:w-40 cursor-pointer items-center h-12 rounded-md">
                     <div class="flex items-center justify-center h-12 w-12">
                         <img src="./assets/icons/google_play.svg"
@@ -102,7 +114,6 @@
                     </div>
                     <span class="text-neutral-400 font-medium max-w-0 whitespace-nowrap -translate-x-8 group-hover:opacity-100 group-hover:translate-x-0 transition-all opacity-0">Coming Soon</span>
                 </div>
-
                 <div class="bg-neutral-950 transition-all shadow-none ease-out hover:shadow-[0_0_20px_0px] hover:bg-black hover:shadow-neutral-800 flex w-12 flex-wrap overflow-hidden group hover:w-40 cursor-pointer items-center h-12 rounded-md">
                     <div class="flex items-center justify-center h-12 w-12">
                         <img src="./assets/icons/apple.svg"
@@ -111,11 +122,15 @@
                     </div>
                     <span class="text-neutral-400 font-medium max-w-0 whitespace-nowrap -translate-x-8 group-hover:opacity-100 group-hover:translate-x-0 transition-all opacity-0">Coming Soon</span>
                 </div>
-
             </div>
+            <!--            Android and IOS download buttons End    -->
+
 
         </div>
+        <!--        Buttons Container End-->
+
     </section>
+    <!--    Section End     -->
 </main>
 
 
