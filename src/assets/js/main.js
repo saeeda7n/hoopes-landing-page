@@ -22,4 +22,14 @@ document.addEventListener('click', (e) => {
 closeMenuButton.addEventListener('click', toggleMenu)
 
 
+const header = document.querySelector("#header")
+const observer = new IntersectionObserver(
+    ([e]) => {
+        console.log(e.target.classList.toggle("is-pinned", e.intersectionRatio < 1))
+        console.log('asdas')
+    },
+    {threshold: [1]}
+);
+
+observer.observe(header);
 
