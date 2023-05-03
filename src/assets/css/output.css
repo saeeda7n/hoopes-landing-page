@@ -669,6 +669,14 @@ video {
   gap: 2rem;
 }
 
+.gap-3 {
+  gap: 0.75rem;
+}
+
+.gap-2 {
+  gap: 0.5rem;
+}
+
 .overflow-hidden {
   overflow: hidden;
 }
@@ -766,6 +774,18 @@ video {
   padding-bottom: 6rem;
 }
 
+.pb-36 {
+  padding-bottom: 9rem;
+}
+
+.pt-24 {
+  padding-top: 6rem;
+}
+
+.pb-40 {
+  padding-bottom: 10rem;
+}
+
 .font-jost {
   font-family: Jost, sans-serif;
 }
@@ -813,6 +833,10 @@ video {
 
 .leading-normal {
   line-height: 1.5;
+}
+
+.leading-3 {
+  line-height: .75rem;
 }
 
 .text-gray-50 {
@@ -997,9 +1021,27 @@ video {
 }
 
 @media (min-width: 640px) {
+  .sm\:w-56 {
+    width: 14rem;
+  }
+
+  .sm\:flex-row {
+    flex-direction: row;
+  }
+
+  .sm\:flex-col {
+    flex-direction: column;
+  }
+
   .sm\:px-5 {
     padding-left: 1.25rem;
     padding-right: 1.25rem;
+  }
+
+  .sm\:hover\:scale-105:hover {
+    --tw-scale-x: 1.05;
+    --tw-scale-y: 1.05;
+    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
   }
 }
 
