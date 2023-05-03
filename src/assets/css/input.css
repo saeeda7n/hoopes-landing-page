@@ -10,6 +10,10 @@
     'opsz' 48
 }
 
+*{
+    -webkit-tap-highlight-color: transparent;
+    -webkit-touch-callout: none;
+}
 
 @keyframes gradient {
     0% {
