@@ -5,12 +5,12 @@
 
 .material-symbols-outlined {
     font-variation-settings: 'FILL' 0,
-    'wght' 400,
+    'wght' 700,
     'GRAD' 0,
     'opsz' 48
 }
 
-*{
+* {
     -webkit-tap-highlight-color: transparent;
     -webkit-touch-callout: none;
 }
@@ -23,4 +23,8 @@
     100% {
         background-position: 200% 0;
     }
+}
+
+.show {
+    @apply fixed !important;
 }
