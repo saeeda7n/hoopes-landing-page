@@ -16,11 +16,12 @@
 
 
 <main class="w-full">
-    <header class="flex h-20 items-center sticky top-0 mt-4 mb-4 bg-black standard-padding z-50">
-        <div class="flex sm:hidden items-center mr-5 cursor-pointer select-none">
+    <header class="flex h-20 items-center sticky top-0 mt-4 mb-4 standard-padding z-50 before:absolute before:bottom-0 before:left-0 before:top-0 before:right-0 before:bg-black before:supports-[backdrop-filter]:bg-opacity-30 before:backdrop-blur">
+
+        <div class="flex sm:hidden items-center mr-5 cursor-pointer select-none relative">
             <span class="material-symbols-outlined text-yellow-200 scale-125" id="showMenuButton">menu</span>
         </div>
-        <h1 class="text-yellow-200 text-light-blue font-bold text-2xl select-none">Hoopoes</h1>
+        <h1 class="text-yellow-200 text-light-blue font-bold text-2xl select-none relative">Hoopoes</h1>
         <div class="ml-auto flex gap-12 items-center">
             <ul id="menu"
                 class="flex sm:translate-x-0 border-r sm:border-r-0 border-neutral-800 -translate-x-full transition-all sm:flex-row flex-col sm:w-auto w-64 sm:px-0 py-10 sm:px-0 gap-4 sm:gap-8 font-bold text-base text-yellow-200 fixed left-0 top-0 bottom-0 sm:bg-transparent bg-neutral-950 z-50 sm:relative">
@@ -54,7 +55,7 @@
                 </li>
             </ul>
 
-            <div class="h-10 transition-all group w-full bg-gradient-to-l from-indigo-600 to-indigo-600 via-yellow-500 bg-[length:200%_100%] hover:bg-right p-0.5 rounded-md">
+            <div class="h-10 relative transition-all group w-full bg-gradient-to-l from-indigo-600 to-indigo-600 via-yellow-500 bg-[length:200%_100%] hover:bg-right p-0.5 rounded-md">
                 <div class="flex h-full w-full px-5 items-center justify-center rounded-md bg-black">
                     <a href="#"
                        class="font-bold bg-clip-text transition-all text-transparent leading-normal bg-gradient-to-l from-indigo-600 to-indigo-600 via-yellow-500 bg-[length:200%_100%] group-hover:bg-right">
