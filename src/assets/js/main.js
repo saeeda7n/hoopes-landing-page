@@ -53,6 +53,29 @@ closeMenuButton.addEventListener('click', toggleMenu)
 
 const swiper = new Swiper('.swiper', {
     slidesPerView: 3,
-    spaceBetween: 30,
-    loop: true
+    centeredSlides: true,
+    spaceBetween: 0,
+    initialSlide: 2,
+    breakpoints: {
+        0: {
+            slidesPerView: 1.2,
+            spaceBetween: 0,
+        },
+        570: {
+            slidesPerView: 1.5,
+            spaceBetween: 0,
+        },
+        670: {
+            slidesPerView: 1.8,
+            spaceBetween: 0,
+        },
+        830: {
+            slidesPerView: 2,
+            spaceBetween: 0,
+        },
+        1124: {
+            slidesPerView: 3,
+            spaceBetween: 0,
+        }
+    },
 });
