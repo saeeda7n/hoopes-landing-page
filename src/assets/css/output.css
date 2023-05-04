@@ -1384,6 +1384,16 @@ video {
   right: -2.5rem;
 }
 
+.after\:-right-20::after {
+  content: var(--tw-content);
+  right: -5rem;
+}
+
+.after\:-left-20::after {
+  content: var(--tw-content);
+  left: -5rem;
+}
+
 .after\:mt-8::after {
   content: var(--tw-content);
   margin-top: 2rem;
