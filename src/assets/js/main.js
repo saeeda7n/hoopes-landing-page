@@ -87,6 +87,3 @@ const swiper = new Swiper('.swiper', {
         }
     },
 });
-swiper.on('slideChange', ({activeIndex}) => {
-    console.log(activeIndex)
-})
