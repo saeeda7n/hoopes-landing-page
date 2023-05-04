@@ -33,3 +33,26 @@ closeMenuButton.addEventListener('click', toggleMenu)
 //
 // observer.observe(header);
 //
+
+// const Tweet = {
+//     id,
+//     nftTokenId,
+//     body,
+//     signature,
+//     ownerAddress,
+//     transaction:{
+//       tx,
+//       nonce,
+//     },
+//     chain:{
+//         chainId,
+//         name,
+//     }
+// }
+
+
+const swiper = new Swiper('.swiper', {
+    slidesPerView: 3,
+    spaceBetween: 30,
+    loop: true
+});
