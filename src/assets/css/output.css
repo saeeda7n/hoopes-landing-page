@@ -679,6 +679,10 @@ video {
   height: 100%;
 }
 
+.h-\[0\.5\] {
+  height: 0.5;
+}
+
 .min-h-\[calc\(100vh_-_7rem_-1px\)\] {
   min-height: calc(100vh - 7rem -1px);
 }
@@ -1535,6 +1539,10 @@ video {
 
   .sm\:h-8 {
     height: 2rem;
+  }
+
+  .sm\:h-\[1px\] {
+    height: 1px;
   }
 
   .sm\:w-1\/2 {
