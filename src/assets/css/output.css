@@ -1329,6 +1329,11 @@ video {
   position: absolute;
 }
 
+.after\:sticky::after {
+  content: var(--tw-content);
+  position: sticky;
+}
+
 .after\:-left-10::after {
   content: var(--tw-content);
   left: -2.5rem;
@@ -1374,6 +1379,11 @@ video {
   top: 100%;
 }
 
+.after\:top-20::after {
+  content: var(--tw-content);
+  top: 5rem;
+}
+
 .after\:mt-8::after {
   content: var(--tw-content);
   margin-top: 2rem;
@@ -1382,6 +1392,11 @@ video {
 .after\:h-\[1px\]::after {
   content: var(--tw-content);
   height: 1px;
+}
+
+.after\:w-full::after {
+  content: var(--tw-content);
+  width: 100%;
 }
 
 .after\:rotate-180::after {
