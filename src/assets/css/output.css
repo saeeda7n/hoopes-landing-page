@@ -683,6 +683,10 @@ video {
   height: 0.5;
 }
 
+.h-\[0\.5px\] {
+  height: 0.5px;
+}
+
 .min-h-\[calc\(100vh_-_7rem_-1px\)\] {
   min-height: calc(100vh - 7rem -1px);
 }
