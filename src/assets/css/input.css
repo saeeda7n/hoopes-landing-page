@@ -29,6 +29,19 @@
 .standard-padding {
     @apply px-3 sm:px-5 md:px-8 lg:px-10 xl:px-32 2xl:px-60;
 }
+
 .swiper-slide-active .icon {
- @apply opacity-100;
+    @apply opacity-100;
+}
+
+::-webkit-scrollbar {
+    @apply w-1 h-1 md:w-1.5 md:h-1.5 bg-neutral-950;
+}
+
+::-webkit-scrollbar-thumb {
+    @apply bg-neutral-900 rounded-full;
+}
+
+::-webkit-scrollbar-corner {
+    @apply bg-transparent;
 }
