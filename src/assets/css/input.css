@@ -45,3 +45,16 @@
 ::-webkit-scrollbar-corner {
     @apply bg-transparent;
 }
+
+@keyframes transform {
+    0% {
+        @apply -translate-x-0;
+    }
+    100% {
+        @apply -translate-x-full;
+    }
+}
+
+.test {
+    animation: transform 10s infinite;
+}
