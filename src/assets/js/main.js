@@ -21,18 +21,23 @@ document.addEventListener('click', (e) => {
 
 closeMenuButton.addEventListener('click', toggleMenu)
 
-//
-// const header = document.querySelector("#header")
-// const observer = new IntersectionObserver(
-//     ([e]) => {
-//         console.log(e.target.classList.toggle("is-pinned", e.intersectionRatio < 1))
-//         console.log('asdas')
-//     },
-//     {threshold: [1]}
-// );
-//
-// observer.observe(header);
-//
+
+const observer = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+        const intersecting = entry.isIntersecting
+        if (intersecting)
+            entry.target.classList.add('active')
+        else
+            entry.target.classList.remove('active')
+
+    })
+}, {threshold: 0.6})
+
+const targets = document.getElementsByClassName('anchor')
+
+for (let i = 0; i < targets.length; i++) {
+    observer.observe(targets[i])
+}
 
 // const Tweet = {
 //     id,

@@ -55,6 +55,7 @@
     }
 }
 
-.test {
-    animation: transform 10s infinite;
+
+.active .point {
+    @apply bg-yellow-500 !important;
 }
