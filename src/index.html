@@ -277,7 +277,7 @@
             </p>
         </div>
 
-        <div class="flex w-full justify-center">
+        <div class="flex w-full flex-row sm:justify-center">
             <div class="h-72 w-1/4 relative opacity-70 max-w-[20rem] pt-4 bg-gradient-to-t from-neutral-800 to-transparent -skew-x-[24deg]">
                 <div class="flex flex-col skew-x-[24deg]">
                     <span class="material-symbols-outlined ml-14 relative" style="font-size: 4rem">token</span>
@@ -336,7 +336,13 @@
     </section>
     <!--    Road map section End-->
     <section class="min-h-screen standard-padding flex flex-col items-center justify-center py-24 relative gap-32">
-        <div class="max-w-5xl text-center mx-auto flex flex-col items-center">
+
+        <div class="absolute left-0 right-0 bottom-0 top-0">
+            <div class="transition-all duration-300 w-72 aspect-square rotate-45 border-[40px] blur-2xl border-sky-500 top-1/4 right-1/2 translate-x-36 opacity-20 absolute"></div>
+        </div>
+
+
+        <div class="max-w-5xl relative text-center mx-auto flex flex-col items-center">
             <h2 class="text-yellow-500 relative text-5xl font-bold sm:text-7xl after:absolute after:h-[1px] after:left-12 after:right-12 after:bg-neutral-700 after:top-full after:mt-8">
                 Backers & Partners
             </h2>
@@ -346,11 +352,10 @@
                 from our distinguished Backers and Investors. Guilds, communities, and KOLs & Ambassadors are also
                 crucial
                 cornerstones in our ecosystem.
-
             </p>
         </div>
         <div class="w-full overflow-hidden">
-            <div class="flex flex-wrap gap-10 items-center justify-center gap-y-14">
+            <div class="flex flex-wrap gap-5 sm:gap-10 items-center justify-center gap-y-8 sm:gap-y-14">
                 <img class="invert sm:hover:scale-110 transition duration-300 opacity-50 h-10"
                      src="./assets/icons/coinmarketcap.svg" alt="">
                 <img class="invert grayscale sm:hover:scale-110 transition duration-300 opacity-50 h-10"
