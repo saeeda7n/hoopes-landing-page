@@ -396,15 +396,15 @@
     <section class="standard-padding flex flex-col items-center justify-center py-24 relative gap-32">
 
 
-        <div class="border-2 z-10 gap-10 border-yellow-500 relative flex items-center py-16 px-10 w-full rounded-lg bg-black overflow-hidden">
+        <div class="border-4 z-10 gap-10 border-yellow-500 relative flex items-center py-16 px-10 w-full rounded-lg bg-black overflow-hidden">
 
             <div class="absolute left-0 right-0 bottom-0 top-0">
-                <div class="transition-all duration-300 w-72 aspect-square rotate-12 border-[80px] blur-3xl border-yellow-500 right-0 bottom-0 translate-x-36 opacity-20 absolute"></div>
+                <div class="transition-all duration-300 w-72  aspect-square rotate-12 border-[80px] blur-3xl border-yellow-500 right-0 bottom-0 translate-x-36 opacity-10 absolute"></div>
             </div>
 
             <div class="flex-1">
-                <h3 class="text-5xl font-bold text-neutral-500 sm:max-w-md">Get informed About the News</h3>
-                <p class="text-neutral-500 mt-5 sm:max-w-md">
+                <h3 class="text-5xl font-bold text-neutral-500 sm:max-w-lg">Get informed About the News</h3>
+                <p class="text-neutral-500 mt-5 sm:max-w-lg">
                     Thanks for your interest in joining the Hoopoes, please provide
                     your information. We will send over program details with participation
                     instructions, along with any relevant future updates from Hoopoes.
@@ -412,15 +412,28 @@
             </div>
             <form action="" class="flex-1 flex flex-col relative">
                 <input type="text" placeholder="First name"
-                       class="border-b bg-transparent py-4 border-b-yellow-500 outline-none">
+                       class="border-b bg-transparent text-lg py-4 border-b-yellow-500 outline-none">
                 <input type="text" placeholder="Email address"
-                       class="border-b bg-transparent py-4 border-b-yellow-500 outline-none">
+                       class="border-b bg-transparent py-4 text-lg border-b-yellow-500 outline-none">
+
+                <label class="mt-4 text-neutral-500 flex items-center gap-2 select-none">
+                    <input type="checkbox" class="bg-transparent grayscale invert w-4 h-4">
+                    Receive the <b>Hoopoes</b> Newsletter (unsubscribe at any time)
+                </label>
+
+                <div class="mt-5">
+                    <button class="ml-auto rounded-md h-10 items-center flex px-5 font-bold bg-gradient-to-l from-yellow-500 to-black">
+                        Sign up
+                    </button>
+                </div>
+
+
             </form>
         </div>
 
 
         <div class="absolute top-0 bottom-1/2 hidden xl:block left-5 2xl:left-20 w-1 bg-yellow-500 text-yellow-500 anchor">
-            <div class="w-[50vw] h-10 absolute -bottom-10 border-yellow-500 rounded-bl-full border-b-[0.25rem] border-l-[0.25rem]">
+            <div class="w-[50vw] h-10 absolute -bottom-10 border-yellow-500 rounded-bl-2xl border-b-[0.25rem] border-l-[0.25rem]">
             </div>
         </div>
     </section>
