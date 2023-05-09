@@ -40,6 +40,7 @@ for (let i = 0; i < targets.length; i++) {
 }
 
 
+
 const swiper = new Swiper('.swiper', {
     slidesPerView: 3,
     centeredSlides: true,
