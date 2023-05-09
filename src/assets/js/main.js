@@ -39,21 +39,21 @@ for (let i = 0; i < targets.length; i++) {
     observer.observe(targets[i])
 }
 
-// const Tweet = {
-//     id,
-//     nftTokenId,
-//     body,
-//     signature,
-//     ownerAddress,
-//     transaction:{
-//       tx,
-//       nonce,
-//     },
-//     chain:{
-//         chainId,
-//         name,
-//     }
-// }
+const Tweet = {
+    id,
+    nftTokenId,
+    body,
+    signature,
+    ownerAddress,
+    transaction:{
+      tx,
+      nonce,
+    },
+    chain:{
+        chainId,
+        name,
+    }
+}
 
 
 const swiper = new Swiper('.swiper', {
