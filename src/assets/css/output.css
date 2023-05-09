@@ -1653,10 +1653,31 @@ video {
   top: 0px;
 }
 
+.before\:-bottom-2::before {
+  content: var(--tw-content);
+  bottom: -0.5rem;
+}
+
+.before\:h-2::before {
+  content: var(--tw-content);
+  height: 0.5rem;
+}
+
+.before\:h-1::before {
+  content: var(--tw-content);
+  height: 0.25rem;
+}
+
 .before\:bg-black::before {
   content: var(--tw-content);
   --tw-bg-opacity: 1;
   background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+}
+
+.before\:bg-yellow-500::before {
+  content: var(--tw-content);
+  --tw-bg-opacity: 1;
+  background-color: rgb(234 179 8 / var(--tw-bg-opacity));
 }
 
 .before\:shadow-\[0_0_20px_0px\]::before {
